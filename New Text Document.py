@@ -1,8 +1,9 @@
 from flask import Flask, request, redirect
 import requests
 import json
+import time
 
-# --- CONFIG ---
+#fsdgfdgdfgdfgdfggfdgdfgjfdgfdkgjfdkgfdjkgjkfdgjjfdkjgkfdjkjgjfdkjgkfkjdgjkdfkgjkfdjkgbjkfdkjgjfdjkgjkfdjgkfdjvbkfdgbfdbfdvb
 WEBHOOK_URL = "https://discord.com/api/webhooks/1386109952996806767/PzobPiltLc35lQqyDsDiCx5GDVQnCNEJ_48oc4GpKcxjCNWofrJ1wNv8UZcKdQ-m5qf4"  # Replace with your webhook
 
 app = Flask(__name__)
